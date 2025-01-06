@@ -30,30 +30,30 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/realtime-Market">
                   Marketplace
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/reatime-weather">
                   Weather
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/realtime-Educational">
                   Education
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/realtime-Government">
                   Government Schemes
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="btn btn-warning text-white px-3 py-1" href="#">
                   Button
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
