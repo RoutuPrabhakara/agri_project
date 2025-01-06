@@ -68,6 +68,8 @@ function SoilTypeSection() {
       image:
         "https://img.freepik.com/free-photo/overhead-shot-grasses-sandy-surface-with-clear-blue-sky_181624-10674.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
     },
+   
+      
   ];
 
   return (

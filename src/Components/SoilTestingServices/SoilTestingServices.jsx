@@ -59,6 +59,8 @@ function SoilTestingServices() {
       image:
         "https://img.freepik.com/premium-photo/manure-with-technology-icon-around-agricultural_38663-816.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
     },
+   
+      
   ];
 
   return (

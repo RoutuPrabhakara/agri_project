@@ -81,6 +81,8 @@ function OrganicFarmingSection() {
       image:
         "https://img.freepik.com/premium-photo/man-work-blows-off-yellow-red-fallen-autumn-leaves-cleaning-yard-with-wind-turbine_73110-2775.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
     },
+   
+      
   ];
 
   return (
