@@ -37,7 +37,7 @@ const Footer = () => {
 
 const styles = {
   footer: {
-    backgroundColor: "#2E3B55",
+    backgroundColor: "#23750b",
     color: "#FFF",
     padding: "20px 10px",
   },
