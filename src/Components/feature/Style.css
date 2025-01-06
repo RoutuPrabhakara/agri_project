@@ -1,0 +1,32 @@
+.Feture-card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    padding: 10px;
+}
+
+  
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #1F4529;
+   
+}
+.header-title {
+    display: grid;
+  }
+  
+  @media (max-width: 640px) {
+    .header-title {
+    
+     grid-template-columns: 2,1fr;
+    }
+  }
+  
