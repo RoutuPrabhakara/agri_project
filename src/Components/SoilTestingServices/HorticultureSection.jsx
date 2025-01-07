@@ -60,7 +60,7 @@ function HorticultureSection() {
   ];
 
   return (
-    <div className="container py-5">
+    <div className="container py-5  data-aos=fade-up">
       <h2 className="text-center mb-4">Horticulture Crops in India</h2>
       <p className="text-center mb-4">
         Explore India's diverse horticultural crops, including fruits, vegetables, flowers, spices, medicinal plants, and nuts.

@@ -64,7 +64,7 @@ function SoilTestingServices() {
   ];
 
   return (
-    <div className="container py-5">
+    <div className="container ">
       <h2 className="text-center mb-4">Soil Testing Services</h2>
       <p className="text-center mb-4">
         Comprehensive soil testing services to optimize soil health and improve crop productivity.

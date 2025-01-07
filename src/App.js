@@ -12,6 +12,8 @@ import IrrigationTipsSection from './pages/IrrigationTipsSection'
 import GovernmentSchemesSection from './pages/GovernmentSchemesSection'
 import CommunitySupportSection from './pages/CommunitySupportSection'
 import NavigationToMarkets from './pages/NavigationToMarkets'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   return (

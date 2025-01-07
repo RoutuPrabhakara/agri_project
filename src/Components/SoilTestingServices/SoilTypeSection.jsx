@@ -74,7 +74,7 @@ function SoilTypeSection() {
 
   return (
     
-    <div className="container py-5">
+    <div className="container">
       <h2 className="text-center mb-4">Soil Types and Suitable Crops</h2>
       <p className="text-center mb-4">
         Learn about different soil types in India, their characteristics, and crops they support.

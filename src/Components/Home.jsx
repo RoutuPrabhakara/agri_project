@@ -12,6 +12,7 @@ import HorticultureSection from './SoilTestingServices/HorticultureSection'
 import SeasonCrops from './SoilTestingServices/SeasonCrops'
 import ModernAgriculture from './SoilTestingServices/ModernAgriculture'
 import MachineryManagement from './SoilTestingServices/MachineryManagement'
+import TrainingPrograms from './SoilTestingServices/TrainingPrograms'
 
 
 
@@ -29,6 +30,7 @@ function Home() {
        <SeasonCrops/>
        <ModernAgriculture/>
        <MachineryManagement/>
+       <TrainingPrograms/>
        <HowItWorksSection/>
     
       
