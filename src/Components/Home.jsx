@@ -9,6 +9,8 @@ import SoilTestingServices from './SoilTestingServices/SoilTestingServices'
 import SoilTypeSection from './SoilTestingServices/SoilTypeSection'
 import OrganicFarmingSection from './SoilTestingServices/OrganicFarmingSection'
 import HorticultureSection from './SoilTestingServices/HorticultureSection'
+import SeasonCrops from './SoilTestingServices/SeasonCrops'
+import ModernAgriculture from './SoilTestingServices/ModernAgriculture'
 
 
 
@@ -22,7 +24,9 @@ function Home() {
        <SoilTypeSection/>
        <OrganicFarmingSection/>
        <HorticultureSection/>
+       <SeasonCrops/>
        <HowItWorksSection/>
+      <ModernAgriculture/>
        <Footer/>
     </div>
   )
