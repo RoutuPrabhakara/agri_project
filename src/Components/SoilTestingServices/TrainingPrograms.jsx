@@ -132,7 +132,7 @@ function TrainingPrograms() {
     <div className="container ">
       <h2 className="text-center mb-4">Agricultural Training Programs</h2>
       <p className="text-center mb-4">
-        Explore ICOR-certified training programs across multiple categories, from crop management to advanced technology in agriculture.
+        Explore ICAR-certified training programs across multiple categories, from crop management to advanced technology in agriculture.
       </p>
       {programsData.map((categoryData, categoryIndex) => (
         <div key={categoryIndex} className="mb-5">
