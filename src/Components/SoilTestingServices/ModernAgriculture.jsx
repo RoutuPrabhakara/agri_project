@@ -17,7 +17,7 @@ function ModernAgriculture() {
             "Minimizes environmental impact",
           ],
           image:
-            "https://img.freepik.com/free-photo/satellite-controlled-agriculture_23-2148906121.jpg",
+            "https://img.freepik.com/free-photo/back-view-man-making-photo-greenery_171337-5935.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
         {
           title: "Vertical Farming",
@@ -26,7 +26,7 @@ function ModernAgriculture() {
           techniquesUsed: ["Hydroponics", "Aeroponics", "LED lighting systems"],
           benefits: ["Saves land", "Conserves water", "Year-round crop production"],
           image:
-            "https://img.freepik.com/free-photo/indoor-farm-lighting_181624-34522.jpg",
+            "https://img.freepik.com/premium-photo/shelves-with-lettuce-aquaponics-system-combining-fish-aquaculture-with-hydroponics-cultivating-plants-water-artificial-lighting-indoors_709047-241.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
       ],
     },
@@ -43,7 +43,7 @@ function ModernAgriculture() {
             "Avoids soil-borne diseases",
           ],
           image:
-            "https://img.freepik.com/free-photo/hydroponic-farming-systems_181624-23422.jpg",
+            "https://img.freepik.com/premium-photo/close-up-vegetable-garden-morning-time-food-background-concept-with-copy-space_44722-75.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
         {
           title: "Agri-Drones",
@@ -55,7 +55,7 @@ function ModernAgriculture() {
             "Helps detect crop diseases early",
           ],
           image:
-            "https://img.freepik.com/free-photo/drone-agriculture-field_181624-18762.jpg",
+            "https://img.freepik.com/free-photo/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation_35913-2569.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
       ],
     },
@@ -72,7 +72,7 @@ function ModernAgriculture() {
             "Improves plant health",
           ],
           image:
-            "https://img.freepik.com/free-photo/irrigation-system-working-green-field_181624-25119.jpg",
+            "https://img.freepik.com/premium-photo/greenhouse-watering-system-action_392895-543335.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
         {
           title: "Organic Farming",
@@ -84,7 +84,7 @@ function ModernAgriculture() {
             "Improves soil health",
           ],
           image:
-            "https://img.freepik.com/free-photo/organic-farming-concept_53876-123851.jpg",
+            "https://img.freepik.com/free-photo/closeup-shot-person-picking-tomatoes-off-plant-farm_181624-33347.jpg?ga=GA1.1.2055555092.1705596882&semt=ais_hybrid",
         },
       ],
     },
