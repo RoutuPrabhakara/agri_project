@@ -12,7 +12,7 @@ dotenv.config()
 app.get('/home',(req,res)=>{
     res.send('Hello Prabhakara')
 })
-const PORT = 5000
+const PORT = 5000 
 
 app.listen(PORT,()=>{
     console.log("app js running")

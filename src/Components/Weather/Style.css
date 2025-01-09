@@ -15,7 +15,7 @@
 }
 .weather-app h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgba(0, 0, 255, 0.863);
+  
   font-weight: bold;
 }
 .weather-app input{

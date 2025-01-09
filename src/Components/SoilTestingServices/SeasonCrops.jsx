@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function SeasonCrops() {
   const seasonData = [
     {
+      link:'/realtime-SeasonCrops',
       season: "Kharif",
       description:
         "Kharif crops are sown at the beginning of the monsoon season (June-July) and harvested at the end of the monsoon (September-October). These crops require substantial rainfall.",

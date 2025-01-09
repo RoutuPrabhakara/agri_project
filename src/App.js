@@ -12,6 +12,10 @@ import IrrigationTipsSection from './pages/IrrigationTipsSection'
 import GovernmentSchemesSection from './pages/GovernmentSchemesSection'
 import CommunitySupportSection from './pages/CommunitySupportSection'
 import NavigationToMarkets from './pages/NavigationToMarkets'
+import MachineryManagement from './Components/SoilTestingServices/MachineryManagement'
+import OrganicFarmingSection from './Components/SoilTestingServices/OrganicFarmingSection'
+import SeasonCrops from './Components/SoilTestingServices/SeasonCrops'
+import Weather from './Components/Weather/Wether'
 
 
 function App() {
@@ -31,6 +35,14 @@ function App() {
           <Route path='/realtime-Government' element={<GovernmentSchemesSection/>}/>
           <Route path='/realtime-Community' element={<CommunitySupportSection/>}/>
           <Route path='/realtime-NavigationToMarkets' element={<NavigationToMarkets/>}/>
+          <Route path='/realtime-MachineryManagement' element={<MachineryManagement/>}/>
+          <Route path='/realtime-Organic' element={<OrganicFarmingSection/>}/>
+          <Route path='/realtime-SeasonCrops' element={<SeasonCrops/>}/>
+          <Route path='/realtime-Weather' element={<Weather/>}/>
+
+
+
+
 
 
 
