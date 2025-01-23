@@ -127,7 +127,7 @@ function Feature() {
       
   return (
     <div className='p-3 p-mb-5 container-fluid'>
-        <h1 className="feature display-3 fw-bold text-center my-5 ">Features</h1>
+        <h1 className="feature display-3 fw-bold text-center my-5   text-success">Features</h1>
         <div className='row justify-content-center'>
             {
                 marketplaceWeatherEducationSchemes.map((item,index)=>(

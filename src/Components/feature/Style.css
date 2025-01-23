@@ -23,35 +23,9 @@
 .header-title {
     display: grid;
   }
+  .feature{
+   
+    padding-top:80px;
+  }
   
-  @media (max-width: 640px) {
-    .header-title {
-    
-     grid-template-columns: 2,1fr;
-    }
-  }
-
-  @media (max-width:640px ){
-      .feature{
-       
-        padding: 30px;
-        color:rgba(0, 128, 0, 0.63);
-      }
-  }
-
-  @media (max-width:1520px) {
-    .feature{
-       
-      padding: 60px;
-      color:rgba(0, 128, 0, 0.63);
-    }
-  }
-  @media (max-width:1530px) {
-    .feature{
-       
-      padding: 50px;
-      color:rgba(0, 128, 0, 0.63);
-    }
-  }
- 
   
