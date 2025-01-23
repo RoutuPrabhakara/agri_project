@@ -15,8 +15,8 @@ function Hero() {
         economic growth and progress. <br />The modernization of agriculture—through new technologies, <br /> better tools, and education—can lead to increased productivity, 
        higher incomes, and improved living standards for farmers.</span></p>
        <div className="d-flex gap-3 align-items-center flex-wrap justify-content-center">
-        <button className="btn btn-warning p-3 px-5 rounded-pill fs-5 btn-hero">Explore Marketplace</button>
-        <button className="btn btn-outline-warning p-3 px-5 rounded-pill fs-5 btn-hero ">Check Weather Now</button>
+        <a href="/realtime-Market"><button className="btn btn-warning p-3 px-5 rounded-pill fs-5 btn-hero">Explore Marketplace</button></a>
+        <a href="/realtime-Weather"><button className="btn btn-outline-warning p-3 px-5 rounded-pill fs-5 btn-hero ">Check Weather Now</button></a>
        </div>
        </div>
     </div>

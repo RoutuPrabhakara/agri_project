@@ -6,7 +6,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg  navbar-dark ">
         <div className="container-fluid">
           {/* Logo */}
-          <a className="navbar-brand d-flex align-items-center" href="#">
+          <a className="navbar-brand d-flex align-items-center" href="/">
             <h3 className="fs-3 text-white m-0">Agri</h3>
           </a>
           {/* Navbar Toggler */}
@@ -25,7 +25,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarContent">
             <ul className="navbar-nav ms-auto gap-3 text-center">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
