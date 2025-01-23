@@ -8,7 +8,7 @@ const Footer = () => {
         <div style={styles.column}>
           <h4>Quick Links</h4>
           <ul style={styles.list}>
-            <li><a href="/home" style={styles.link}>Home</a></li>
+            <li><a href="/" style={styles.link}>Home</a></li>
             <li><a href="/realtime-Market" style={styles.link}>Marketplace</a></li>
             <li><a href="/reatime-weather" style={styles.link}>Weather</a></li>
             <li><a href="/realtime-Educational" style={styles.link}>Educational Resources</a></li>
