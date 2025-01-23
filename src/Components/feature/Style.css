@@ -23,9 +23,11 @@
 .header-title {
     display: grid;
   }
+ @media (max-width:640px) {
   .feature{
    
     padding-top:80px;
   }
+ }
   
   
