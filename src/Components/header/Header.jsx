@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from '../../assets/media/Agri_Tech.jpg'
 function Header() {
   return (
     <header>
@@ -7,7 +7,8 @@ function Header() {
         <div className="container-fluid">
           {/* Logo */}
           <a className="navbar-brand d-flex align-items-center" href="/">
-            <h3 className="fs-3 text-white m-0">Agri</h3>
+            {/* <h3 className="fs-3 text-white m-0">Agri</h3> */}
+            <img src={logo} alt="agri tech" className="imag" style={{width:'60px',height:'60px',borderRadius:"50px"}}/>
           </a>
           {/* Navbar Toggler */}
           <button

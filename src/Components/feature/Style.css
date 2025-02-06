@@ -5,12 +5,7 @@
     border: 1px solid green;
 }
 
- @media (max-width:768px) {
-        .Feture-card{
-          display: grid;
-          grid-template-columns: repeat(2,1fr);
-        }
- } 
+
 .icon{
     display: flex;
     justify-content: center;
