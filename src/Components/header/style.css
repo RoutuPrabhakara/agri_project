@@ -12,12 +12,11 @@
   header{
     background-color: green;
   }
-  .imag{
-    width: 100px !important;
-    height: 100px !important;
-  }
-  @media (max-width:564) {
-    .nav-item{
-      text-align: left;
-    }
+ 
+ 
+  button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border: 2px solid greenyellow !important;
   }

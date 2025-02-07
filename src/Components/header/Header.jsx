@@ -8,7 +8,7 @@ function Header() {
           {/* Logo */}
           <a className="navbar-brand d-flex align-items-center" href="/">
             {/* <h3 className="fs-3 text-white m-0">Agri</h3> */}
-            <img src={logo} alt="agri tech" className="imag" style={{width:'60px',height:'60px',borderRadius:"50px"}}/>
+            <img src={logo} alt="agri tech" className="imag" style={{width:'50px',height:'50px',borderRadius:"50px",border:'1px solid rgba(5, 252, 71, 0.66)'}}/>
           </a>
           {/* Navbar Toggler */}
           <button
