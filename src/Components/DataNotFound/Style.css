@@ -1,0 +1,12 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border: none;
+    border: 1px solid green !important;
+}
+.card a{
+    text-decoration: none;
+    padding-top: 10px;
+}

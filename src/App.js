@@ -18,6 +18,7 @@ import MachineryManagement from './Components/SoilTestingServices/MachineryManag
 import OrganicFarmingSection from './Components/SoilTestingServices/OrganicFarmingSection'
 import SeasonCrops from './Components/SoilTestingServices/SeasonCrops'
 import Weather from './Components/Weather/Wether'
+import DataNotFound from './Components/DataNotFound/DataNotFound'
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
           <Route path='/realtime-Organic' element={<OrganicFarmingSection/>}/>
           <Route path='/realtime-SeasonCrops' element={<SeasonCrops/>}/>
           <Route path='/realtime-Weather' element={<Weather/>}/>
-
+          <Route path='/*' element={<DataNotFound/>}/>
 
 
 
