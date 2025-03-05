@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function GovernmentSchemesSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const schemes = [
     {
       title: "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
@@ -69,7 +75,7 @@ function GovernmentSchemesSection() {
       </p>
       <div className="row">
         {schemes.map((scheme, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-left'>
             <div className="card shadow h-100">
               <img
                 src={scheme.image}

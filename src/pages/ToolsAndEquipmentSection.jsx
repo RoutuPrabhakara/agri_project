@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function ToolsAndEquipmentSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const tools = [
     {
       title: "Hand Tools",
@@ -43,7 +49,7 @@ function ToolsAndEquipmentSection() {
       </p>
       <div className="row">
         {tools.map((tool, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-left'>
             <div className="card shadow h-100">
               <img
                 src={tool.image}

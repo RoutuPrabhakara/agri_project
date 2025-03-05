@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function ExtremeWeatherAlertsSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const alerts = [
     {
       title: "Thunderstorm Warnings",
@@ -63,7 +69,7 @@ function ExtremeWeatherAlertsSection() {
       </p>
       <div className="row">
         {alerts.map((alert, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-left'>
             <div className="card shadow h-100">
               <img
                 src={alert.image}

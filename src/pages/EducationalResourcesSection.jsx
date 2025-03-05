@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function EducationalResourcesSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const resources = [
     {
       title: "Guides for Modern Farming",
@@ -63,7 +69,7 @@ function EducationalResourcesSection() {
       </p>
       <div className="row">
         {resources.map((resource, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-down'>
             <div className="card shadow h-100">
               <img
                 src={resource.image}

@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import  'aos/dist/aos.css'
 function CropPriceUpdatesSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const updates = [
     {
       title: "Daily Crop Prices",
@@ -63,7 +69,7 @@ function CropPriceUpdatesSection() {
       </p>
       <div className="row">
         {updates.map((update, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-up'>
             <div className="card shadow h-100">
               <img
                 src={update.image}

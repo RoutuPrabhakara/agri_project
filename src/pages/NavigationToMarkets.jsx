@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function NavigationToMarkets() {
+  useEffect(()=>{
+  Aos.init({
+    duration:2000
+  })
+  })
   const markets = [
     {
       name: "City Farmers Market",
@@ -55,7 +61,7 @@ function NavigationToMarkets() {
       </p>
       <div className="row">
         {markets.map((market, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in-right'>
             <div className="card shadow h-100">
               <img
                 src={market.image}
