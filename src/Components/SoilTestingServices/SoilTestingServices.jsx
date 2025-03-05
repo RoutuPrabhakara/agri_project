@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function SoilTestingServices() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const soilServices = [
     {
       title: "pH Testing",
@@ -71,7 +78,7 @@ function SoilTestingServices() {
       </p>
       <div className="row">
         {soilServices.map((service, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='flip-right'>
             <div className="card  h-100">
               <img
                 src={service.image}

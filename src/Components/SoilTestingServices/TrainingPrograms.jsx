@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function TrainingPrograms() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const programsData = [
     {
       category: "Crop Management Training Programs",
@@ -135,7 +142,7 @@ function TrainingPrograms() {
         Explore ICAR-certified training programs across multiple categories, from crop management to advanced technology in agriculture.
       </p>
       {programsData.map((categoryData, categoryIndex) => (
-        <div key={categoryIndex} className="mb-5">
+        <div key={categoryIndex} className="mb-5" data-aos='flip-down'>
           <h3 className="mb-3">{categoryData.category}</h3>
           <div className="row">
             {categoryData.programs.map((program, index) => (

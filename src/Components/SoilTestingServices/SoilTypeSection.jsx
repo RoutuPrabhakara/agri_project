@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import from './assets/media/img1'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function SoilTypeSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const soilTypes = [
     {
       title: "Alluvial Soil",
@@ -81,7 +87,7 @@ function SoilTypeSection() {
       </p>
       <div className="row">
         {soilTypes.map((soil, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='flip-up'>
             <div className="card  h-100">
               <img
                 src={soil.image}

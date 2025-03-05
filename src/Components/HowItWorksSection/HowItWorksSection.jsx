@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap styles
 import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function HowItWorksSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const steps = [
     {
       icon: "bi-cloud-sun",
@@ -71,7 +78,7 @@ function HowItWorksSection() {
       <h2 className="text-center mb-4">How It Works</h2>
       <div className="row">
         {steps.map((step, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='zoom-in'>
             <div className="card text-center p-3 shadow h-100">
               <div className=" mb-3">
                 <i className={`bi ${step.icon} display-4 text-success`}></i>

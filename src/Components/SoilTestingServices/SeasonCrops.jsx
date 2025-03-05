@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function SeasonCrops() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const seasonData = [
     {
      
@@ -93,7 +100,7 @@ function SeasonCrops() {
 
       <div className="row">
         {seasonData.map((season, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='flip-left'>
             <div className="card h-100">
               <img
                 src={season.image}

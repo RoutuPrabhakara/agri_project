@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function HorticultureSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    },[])
+  })
   const horticultureData = [
     {
       title: "Fruits",
@@ -65,7 +72,7 @@ function HorticultureSection() {
       <p className="text-center mb-4">
         Explore India's diverse horticultural crops, including fruits, vegetables, flowers, spices, medicinal plants, and nuts.
       </p>
-      <div className="row">
+      <div className="row" data-aos="fade-up-right">
         {horticultureData.map((item, index) => (
           <div key={index} className="col-md-4 mb-4">
             <div className="card  h-100">

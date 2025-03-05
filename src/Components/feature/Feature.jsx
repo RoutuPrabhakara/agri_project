@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Style.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Feature() {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
     const marketplaceWeatherEducationSchemes = [
         // Marketplace
         {
@@ -124,11 +129,13 @@ function Feature() {
           link:"/realtime-Irrigations"
         }
       ];
+
+     
       
   return (
     <div className='p-4 p-mb-5 container-fluid'>
         <h1 className="feature display-3 fw-bold text-center my-5 py-5  text-success">Features</h1>
-        <div className='row justify-content-center'>
+        <div className='row justify-content-center' data-aos ="fade-up-right">
             {
                 marketplaceWeatherEducationSchemes.map((item,index)=>(
                    <div className="col-md-3 col-sm-6  mb-3" key={index}>

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function OrganicFarmingSection() {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+  })
   const organicData = [
     {
       title: "Composting",
@@ -93,7 +100,7 @@ function OrganicFarmingSection() {
       </p>
       <div className="row">
         {organicData.map((data, index) => (
-          <div key={index} className="col-md-4 mb-4">
+          <div key={index} className="col-md-4 mb-4" data-aos='fade-down-left'>
             <div className="card  h-100">
               <img
                 src={data.image}
